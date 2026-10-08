@@ -1,0 +1,671 @@
+{
+  "dataset_id": "lumbar-ct-segmentation-machine-sample-6",
+  "name": "腰骶部CT机器分割标注样本6例",
+  "version": "1.0",
+  "modality": "CT",
+  "anatomical_region": "腰骶部",
+  "sample_count": 6,
+  "sample_unit": "例",
+  "annotation_type": "machine",
+  "annotator_qualification": null,
+  "annotation_software": {
+    "name": "3D Slicer",
+    "version": "5.12.4"
+  },
+  "machine_model": null,
+  "label_semantics_status": "inferred",
+  "label_semantics_basis": "根据CT影像、掩码位置与双侧对称关系推定；源标签字典未提供",
+  "lesion_annotation": "未提供独立病灶类别",
+  "license": "other",
+  "license_status": "not_specified",
+  "label_dictionary": [
+    {
+      "value": 0,
+      "anatomical_structure": "background",
+      "name_zh": "背景",
+      "semantic_status": "background"
+    },
+    {
+      "value": 1,
+      "anatomical_structure": "vertebra_l1",
+      "name_zh": "第1腰椎（推定L1）",
+      "semantic_status": "inferred"
+    },
+    {
+      "value": 2,
+      "anatomical_structure": "vertebra_l2",
+      "name_zh": "第2腰椎（推定L2）",
+      "semantic_status": "inferred"
+    },
+    {
+      "value": 3,
+      "anatomical_structure": "vertebra_l3",
+      "name_zh": "第3腰椎（推定L3）",
+      "semantic_status": "inferred"
+    },
+    {
+      "value": 4,
+      "anatomical_structure": "vertebra_l4",
+      "name_zh": "第4腰椎（推定L4）",
+      "semantic_status": "inferred"
+    },
+    {
+      "value": 5,
+      "anatomical_structure": "vertebra_l5",
+      "name_zh": "第5腰椎（推定L5）",
+      "semantic_status": "inferred"
+    },
+    {
+      "value": 6,
+      "anatomical_structure": "sacrum",
+      "name_zh": "骶骨",
+      "semantic_status": "inferred"
+    },
+    {
+      "value": 10,
+      "anatomical_structure": "psoas_major_right",
+      "name_zh": "右侧腰大肌",
+      "semantic_status": "inferred"
+    },
+    {
+      "value": 11,
+      "anatomical_structure": "quadratus_lumborum_right",
+      "name_zh": "右侧腰方肌",
+      "semantic_status": "inferred"
+    },
+    {
+      "value": 12,
+      "anatomical_structure": "erector_spinae_right",
+      "name_zh": "右侧竖脊肌群",
+      "semantic_status": "inferred"
+    },
+    {
+      "value": 13,
+      "anatomical_structure": "multifidus_right",
+      "name_zh": "右侧多裂肌",
+      "semantic_status": "inferred"
+    },
+    {
+      "value": 14,
+      "anatomical_structure": "psoas_major_left",
+      "name_zh": "左侧腰大肌",
+      "semantic_status": "inferred"
+    },
+    {
+      "value": 15,
+      "anatomical_structure": "quadratus_lumborum_left",
+      "name_zh": "左侧腰方肌",
+      "semantic_status": "inferred"
+    },
+    {
+      "value": 16,
+      "anatomical_structure": "erector_spinae_left",
+      "name_zh": "左侧竖脊肌群",
+      "semantic_status": "inferred"
+    },
+    {
+      "value": 17,
+      "anatomical_structure": "multifidus_left",
+      "name_zh": "左侧多裂肌",
+      "semantic_status": "inferred"
+    },
+    {
+      "value": 18,
+      "anatomical_structure": "hip_bone_left",
+      "name_zh": "左侧髋骨（扫描范围内）",
+      "semantic_status": "inferred"
+    },
+    {
+      "value": 19,
+      "anatomical_structure": "hip_bone_right",
+      "name_zh": "右侧髋骨（扫描范围内）",
+      "semantic_status": "inferred"
+    }
+  ],
+  "paired_dataset_id": "lumbar-ct-segmentation-human-sample-1",
+  "shared_case_ids": [
+    "case-0004"
+  ],
+  "case_label_statistics": [
+    {
+      "case_id": "case-0001",
+      "labels": [
+        {
+          "value": 0,
+          "voxel_count": 64827870,
+          "volume_mm3": 4944168.604
+        },
+        {
+          "value": 1,
+          "voxel_count": 463062,
+          "volume_mm3": 35315.931
+        },
+        {
+          "value": 2,
+          "voxel_count": 687868,
+          "volume_mm3": 52461.007
+        },
+        {
+          "value": 3,
+          "voxel_count": 765206,
+          "volume_mm3": 58359.275
+        },
+        {
+          "value": 4,
+          "voxel_count": 768068,
+          "volume_mm3": 58577.548
+        },
+        {
+          "value": 5,
+          "voxel_count": 750906,
+          "volume_mm3": 57268.67
+        },
+        {
+          "value": 6,
+          "voxel_count": 1849364,
+          "volume_mm3": 141043.774
+        },
+        {
+          "value": 10,
+          "voxel_count": 1140674,
+          "volume_mm3": 86994.754
+        },
+        {
+          "value": 11,
+          "voxel_count": 388704,
+          "volume_mm3": 29644.937
+        },
+        {
+          "value": 12,
+          "voxel_count": 2711680,
+          "volume_mm3": 206809.249
+        },
+        {
+          "value": 13,
+          "voxel_count": 1511346,
+          "volume_mm3": 115264.46
+        },
+        {
+          "value": 14,
+          "voxel_count": 1511168,
+          "volume_mm3": 115250.885
+        },
+        {
+          "value": 15,
+          "voxel_count": 324986,
+          "volume_mm3": 24785.414
+        },
+        {
+          "value": 16,
+          "voxel_count": 2688716,
+          "volume_mm3": 205057.875
+        },
+        {
+          "value": 17,
+          "voxel_count": 1397438,
+          "volume_mm3": 106577.142
+        },
+        {
+          "value": 18,
+          "voxel_count": 911128,
+          "volume_mm3": 69488.176
+        },
+        {
+          "value": 19,
+          "voxel_count": 1187896,
+          "volume_mm3": 90596.191
+        }
+      ]
+    },
+    {
+      "case_id": "case-0002",
+      "labels": [
+        {
+          "value": 0,
+          "voxel_count": 64069670,
+          "volume_mm3": 4944341.286
+        },
+        {
+          "value": 1,
+          "voxel_count": 378246,
+          "volume_mm3": 29189.745
+        },
+        {
+          "value": 2,
+          "voxel_count": 456021,
+          "volume_mm3": 35191.745
+        },
+        {
+          "value": 3,
+          "voxel_count": 518552,
+          "volume_mm3": 40017.345
+        },
+        {
+          "value": 4,
+          "voxel_count": 527443,
+          "volume_mm3": 40703.475
+        },
+        {
+          "value": 5,
+          "voxel_count": 531245,
+          "volume_mm3": 40996.88
+        },
+        {
+          "value": 6,
+          "voxel_count": 1361707,
+          "volume_mm3": 105084.733
+        },
+        {
+          "value": 10,
+          "voxel_count": 559162,
+          "volume_mm3": 43151.272
+        },
+        {
+          "value": 11,
+          "voxel_count": 163571,
+          "volume_mm3": 12622.991
+        },
+        {
+          "value": 12,
+          "voxel_count": 1634203,
+          "volume_mm3": 126113.61
+        },
+        {
+          "value": 13,
+          "voxel_count": 955480,
+          "volume_mm3": 73735.657
+        },
+        {
+          "value": 14,
+          "voxel_count": 701386,
+          "volume_mm3": 54126.887
+        },
+        {
+          "value": 15,
+          "voxel_count": 239357,
+          "volume_mm3": 18471.497
+        },
+        {
+          "value": 16,
+          "voxel_count": 1804410,
+          "volume_mm3": 139248.709
+        },
+        {
+          "value": 17,
+          "voxel_count": 977387,
+          "volume_mm3": 75426.249
+        },
+        {
+          "value": 18,
+          "voxel_count": 719331,
+          "volume_mm3": 55511.726
+        },
+        {
+          "value": 19,
+          "voxel_count": 686733,
+          "volume_mm3": 52996.095
+        }
+      ]
+    },
+    {
+      "case_id": "case-0003",
+      "labels": [
+        {
+          "value": 0,
+          "voxel_count": 74935188,
+          "volume_mm3": 7072282.668
+        },
+        {
+          "value": 1,
+          "voxel_count": 415443,
+          "volume_mm3": 39208.954
+        },
+        {
+          "value": 2,
+          "voxel_count": 537398,
+          "volume_mm3": 50718.903
+        },
+        {
+          "value": 3,
+          "voxel_count": 627960,
+          "volume_mm3": 59266.024
+        },
+        {
+          "value": 4,
+          "voxel_count": 614257,
+          "volume_mm3": 57972.753
+        },
+        {
+          "value": 5,
+          "voxel_count": 644646,
+          "volume_mm3": 60840.826
+        },
+        {
+          "value": 6,
+          "voxel_count": 1744430,
+          "volume_mm3": 164636.967
+        },
+        {
+          "value": 10,
+          "voxel_count": 1478570,
+          "volume_mm3": 139545.456
+        },
+        {
+          "value": 11,
+          "voxel_count": 508457,
+          "volume_mm3": 47987.491
+        },
+        {
+          "value": 12,
+          "voxel_count": 2637515,
+          "volume_mm3": 248925.133
+        },
+        {
+          "value": 13,
+          "voxel_count": 1294713,
+          "volume_mm3": 122193.279
+        },
+        {
+          "value": 14,
+          "voxel_count": 1396018,
+          "volume_mm3": 131754.309
+        },
+        {
+          "value": 15,
+          "voxel_count": 523936,
+          "volume_mm3": 49448.378
+        },
+        {
+          "value": 16,
+          "voxel_count": 2625441,
+          "volume_mm3": 247785.605
+        },
+        {
+          "value": 17,
+          "voxel_count": 1155888,
+          "volume_mm3": 109091.161
+        },
+        {
+          "value": 18,
+          "voxel_count": 1099413,
+          "volume_mm3": 103761.126
+        },
+        {
+          "value": 19,
+          "voxel_count": 1083991,
+          "volume_mm3": 102305.619
+        }
+      ]
+    },
+    {
+      "case_id": "case-0004",
+      "labels": [
+        {
+          "value": 0,
+          "voxel_count": 58885557,
+          "volume_mm3": 5980923.633
+        },
+        {
+          "value": 1,
+          "voxel_count": 449584,
+          "volume_mm3": 45663.618
+        },
+        {
+          "value": 2,
+          "voxel_count": 509124,
+          "volume_mm3": 51711.012
+        },
+        {
+          "value": 3,
+          "voxel_count": 603114,
+          "volume_mm3": 61257.445
+        },
+        {
+          "value": 4,
+          "voxel_count": 593507,
+          "volume_mm3": 60281.676
+        },
+        {
+          "value": 5,
+          "voxel_count": 529590,
+          "volume_mm3": 53789.715
+        },
+        {
+          "value": 6,
+          "voxel_count": 1505631,
+          "volume_mm3": 152924.834
+        },
+        {
+          "value": 10,
+          "voxel_count": 516381,
+          "volume_mm3": 52448.096
+        },
+        {
+          "value": 11,
+          "voxel_count": 156536,
+          "volume_mm3": 15899.142
+        },
+        {
+          "value": 12,
+          "voxel_count": 1696855,
+          "volume_mm3": 172347.188
+        },
+        {
+          "value": 13,
+          "voxel_count": 836851,
+          "volume_mm3": 84997.785
+        },
+        {
+          "value": 14,
+          "voxel_count": 1214268,
+          "volume_mm3": 123331.502
+        },
+        {
+          "value": 15,
+          "voxel_count": 336696,
+          "volume_mm3": 34197.742
+        },
+        {
+          "value": 16,
+          "voxel_count": 1856258,
+          "volume_mm3": 188537.528
+        },
+        {
+          "value": 17,
+          "voxel_count": 859256,
+          "volume_mm3": 87273.43
+        },
+        {
+          "value": 18,
+          "voxel_count": 1326082,
+          "volume_mm3": 134688.293
+        },
+        {
+          "value": 19,
+          "voxel_count": 476454,
+          "volume_mm3": 48392.766
+        }
+      ]
+    },
+    {
+      "case_id": "case-0005",
+      "labels": [
+        {
+          "value": 0,
+          "voxel_count": 72396387,
+          "volume_mm3": 6760179.328
+        },
+        {
+          "value": 1,
+          "voxel_count": 231152,
+          "volume_mm3": 21584.35
+        },
+        {
+          "value": 2,
+          "voxel_count": 385801,
+          "volume_mm3": 36025.057
+        },
+        {
+          "value": 3,
+          "voxel_count": 404220,
+          "volume_mm3": 37744.973
+        },
+        {
+          "value": 4,
+          "voxel_count": 429865,
+          "volume_mm3": 40139.634
+        },
+        {
+          "value": 5,
+          "voxel_count": 472494,
+          "volume_mm3": 44120.215
+        },
+        {
+          "value": 6,
+          "voxel_count": 1089963,
+          "volume_mm3": 101777.805
+        },
+        {
+          "value": 10,
+          "voxel_count": 583766,
+          "volume_mm3": 54510.494
+        },
+        {
+          "value": 11,
+          "voxel_count": 115401,
+          "volume_mm3": 10775.834
+        },
+        {
+          "value": 12,
+          "voxel_count": 1209090,
+          "volume_mm3": 112901.563
+        },
+        {
+          "value": 13,
+          "voxel_count": 855528,
+          "volume_mm3": 79886.897
+        },
+        {
+          "value": 14,
+          "voxel_count": 929290,
+          "volume_mm3": 86774.593
+        },
+        {
+          "value": 15,
+          "voxel_count": 180239,
+          "volume_mm3": 16830.232
+        },
+        {
+          "value": 16,
+          "voxel_count": 1526442,
+          "volume_mm3": 142535.036
+        },
+        {
+          "value": 17,
+          "voxel_count": 820421,
+          "volume_mm3": 76608.7
+        },
+        {
+          "value": 18,
+          "voxel_count": 1060501,
+          "volume_mm3": 99026.723
+        },
+        {
+          "value": 19,
+          "voxel_count": 146944,
+          "volume_mm3": 13721.234
+        }
+      ]
+    },
+    {
+      "case_id": "case-0006",
+      "labels": [
+        {
+          "value": 0,
+          "voxel_count": 85570377,
+          "volume_mm3": 16302458.098
+        },
+        {
+          "value": 1,
+          "voxel_count": 236682,
+          "volume_mm3": 45091.52
+        },
+        {
+          "value": 2,
+          "voxel_count": 249118,
+          "volume_mm3": 47460.767
+        },
+        {
+          "value": 3,
+          "voxel_count": 259772,
+          "volume_mm3": 49490.516
+        },
+        {
+          "value": 4,
+          "voxel_count": 305590,
+          "volume_mm3": 58219.542
+        },
+        {
+          "value": 5,
+          "voxel_count": 324976,
+          "volume_mm3": 61912.87
+        },
+        {
+          "value": 6,
+          "voxel_count": 877056,
+          "volume_mm3": 167092.505
+        },
+        {
+          "value": 10,
+          "voxel_count": 653975,
+          "volume_mm3": 124592.183
+        },
+        {
+          "value": 11,
+          "voxel_count": 197490,
+          "volume_mm3": 37624.848
+        },
+        {
+          "value": 12,
+          "voxel_count": 1019512,
+          "volume_mm3": 194232.54
+        },
+        {
+          "value": 13,
+          "voxel_count": 440493,
+          "volume_mm3": 83920.615
+        },
+        {
+          "value": 14,
+          "voxel_count": 771057,
+          "volume_mm3": 146898.084
+        },
+        {
+          "value": 15,
+          "voxel_count": 171601,
+          "volume_mm3": 32692.6
+        },
+        {
+          "value": 16,
+          "voxel_count": 1026308,
+          "volume_mm3": 195527.281
+        },
+        {
+          "value": 17,
+          "voxel_count": 499212,
+          "volume_mm3": 95107.478
+        },
+        {
+          "value": 18,
+          "voxel_count": 711481,
+          "volume_mm3": 135547.95
+        },
+        {
+          "value": 19,
+          "voxel_count": 270708,
+          "volume_mm3": 51573.991
+        }
+      ]
+    }
+  ]
+}

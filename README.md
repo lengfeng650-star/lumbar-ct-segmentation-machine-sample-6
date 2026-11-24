@@ -22,6 +22,10 @@ configs:
 
 # 腰骶部CT机器分割标注样本6例
 
+## 直接下载
+
+- [逐文件下载](https://github.com/lengfeng650-star/lumbar-ct-segmentation-machine-sample-6/blob/main/meta/downloads.md)
+
 本数据集包含 6 例腰骶部 CT 及对应分割掩码，格式为 NIfTI（`.nii.gz`）。每个掩码含 16 个非零类别，另以 0 表示背景。标注范围为腰椎、骶骨、髋骨和腰背部肌群；未提供独立病灶类别。
 
 标注方式：机器标注。分割模型名称和版本未提供。 标注软件为 **3D Slicer 5.12.4**。

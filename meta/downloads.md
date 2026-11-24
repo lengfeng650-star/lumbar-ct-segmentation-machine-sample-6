@@ -1,0 +1,16 @@
+# 数据文件下载
+
+- [data/images/case-0001.nii.gz](https://github.com/lengfeng650-star/lumbar-ct-segmentation-machine-sample-6/raw/refs/heads/main/data/images/case-0001.nii.gz)
+- [data/images/case-0002.nii.gz](https://github.com/lengfeng650-star/lumbar-ct-segmentation-machine-sample-6/raw/refs/heads/main/data/images/case-0002.nii.gz)
+- [data/images/case-0003.nii.gz](https://github.com/lengfeng650-star/lumbar-ct-segmentation-machine-sample-6/raw/refs/heads/main/data/images/case-0003.nii.gz)
+- [data/images/case-0004.nii.gz](https://github.com/lengfeng650-star/lumbar-ct-segmentation-machine-sample-6/raw/refs/heads/main/data/images/case-0004.nii.gz)
+- [data/images/case-0005.nii.gz](https://github.com/lengfeng650-star/lumbar-ct-segmentation-machine-sample-6/raw/refs/heads/main/data/images/case-0005.nii.gz)
+- [data/images/case-0006.nii.gz](https://github.com/lengfeng650-star/lumbar-ct-segmentation-machine-sample-6/raw/refs/heads/main/data/images/case-0006.nii.gz)
+- [data/labels/case-0001.nii.gz](https://github.com/lengfeng650-star/lumbar-ct-segmentation-machine-sample-6/raw/refs/heads/main/data/labels/case-0001.nii.gz)
+- [data/labels/case-0002.nii.gz](https://github.com/lengfeng650-star/lumbar-ct-segmentation-machine-sample-6/raw/refs/heads/main/data/labels/case-0002.nii.gz)
+- [data/labels/case-0003.nii.gz](https://github.com/lengfeng650-star/lumbar-ct-segmentation-machine-sample-6/raw/refs/heads/main/data/labels/case-0003.nii.gz)
+- [data/labels/case-0004.nii.gz](https://github.com/lengfeng650-star/lumbar-ct-segmentation-machine-sample-6/raw/refs/heads/main/data/labels/case-0004.nii.gz)
+- [data/labels/case-0005.nii.gz](https://github.com/lengfeng650-star/lumbar-ct-segmentation-machine-sample-6/raw/refs/heads/main/data/labels/case-0005.nii.gz)
+- [data/labels/case-0006.nii.gz](https://github.com/lengfeng650-star/lumbar-ct-segmentation-machine-sample-6/raw/refs/heads/main/data/labels/case-0006.nii.gz)
+- [meta/dataset.json](https://github.com/lengfeng650-star/lumbar-ct-segmentation-machine-sample-6/raw/refs/heads/main/meta/dataset.json)
+- [meta/records.jsonl](https://github.com/lengfeng650-star/lumbar-ct-segmentation-machine-sample-6/raw/refs/heads/main/meta/records.jsonl)
